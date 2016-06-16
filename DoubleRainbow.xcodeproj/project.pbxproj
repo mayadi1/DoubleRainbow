@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		44F89D0F1D13020A008DD4E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F89D0E1D13020A008DD4E3 /* AppDelegate.swift */; };
-		44F89D111D13020A008DD4E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F89D101D13020A008DD4E3 /* ViewController.swift */; };
 		44F89D141D13020A008DD4E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F89D121D13020A008DD4E3 /* Main.storyboard */; };
 		44F89D161D13020A008DD4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F89D151D13020A008DD4E3 /* Assets.xcassets */; };
 		44F89D191D13020A008DD4E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F89D171D13020A008DD4E3 /* LaunchScreen.storyboard */; };
+		44F89D211D130236008DD4E3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F89D201D130236008DD4E3 /* TableViewController.swift */; };
+		44F89D231D130CD2008DD4E3 /* RainbowColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F89D221D130CD2008DD4E3 /* RainbowColor.swift */; };
+		44F89D251D1318AA008DD4E3 /* UIColor+RainbowColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F89D241D1318AA008DD4E3 /* UIColor+RainbowColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		44F89D0B1D13020A008DD4E3 /* DoubleRainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleRainbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F89D0E1D13020A008DD4E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44F89D101D13020A008DD4E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44F89D131D13020A008DD4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44F89D151D13020A008DD4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44F89D181D13020A008DD4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44F89D1A1D13020A008DD4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44F89D201D130236008DD4E3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		44F89D221D130CD2008DD4E3 /* RainbowColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainbowColor.swift; sourceTree = "<group>"; };
+		44F89D241D1318AA008DD4E3 /* UIColor+RainbowColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RainbowColor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				44F89D0E1D13020A008DD4E3 /* AppDelegate.swift */,
-				44F89D101D13020A008DD4E3 /* ViewController.swift */,
+				44F89D201D130236008DD4E3 /* TableViewController.swift */,
+				44F89D241D1318AA008DD4E3 /* UIColor+RainbowColor.swift */,
+				44F89D221D130CD2008DD4E3 /* RainbowColor.swift */,
 				44F89D121D13020A008DD4E3 /* Main.storyboard */,
 				44F89D151D13020A008DD4E3 /* Assets.xcassets */,
 				44F89D171D13020A008DD4E3 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44F89D111D13020A008DD4E3 /* ViewController.swift in Sources */,
 				44F89D0F1D13020A008DD4E3 /* AppDelegate.swift in Sources */,
+				44F89D231D130CD2008DD4E3 /* RainbowColor.swift in Sources */,
+				44F89D251D1318AA008DD4E3 /* UIColor+RainbowColor.swift in Sources */,
+				44F89D211D130236008DD4E3 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
